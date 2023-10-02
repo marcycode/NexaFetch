@@ -6,9 +6,8 @@ NexaFetch is a content aggregation tool designed to help users discover curated 
 ## Running NexaFetch:
 - Fork and Clone this Repository
 
-- Navigate to the directory where you cloned NexaFetch.
--- If you received a separate API_key.txt file, place it in the main directory.
-- Find the NexaFetch executable (could be named main.exe or similar) within the directory.
+- Navigate to the  build directory & open the main.exe file
+
 - Double-click on it to launch the application.
 
 
