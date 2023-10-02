@@ -31,6 +31,7 @@ class Scheduler(QWidget):
         selected_date = self.calendar.selectedDate()
         selected_time = self.time_picker.time()
 
+
         scheduled_datetime = QDateTime(selected_date, selected_time)
         if scheduled_datetime < current_datetime:
             scheduled_datetime = self.add_time_based_on_frequency(scheduled_datetime)
